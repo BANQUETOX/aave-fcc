@@ -11,7 +11,8 @@ require("hardhat-deploy")
  */
 
 const MAINNET_RPC_URL =
-    process.env.MAINNET_RPC_URL || process.env.ALCHEMY_MAINNET_RPC_URL || ""
+    "https://eth-mainnet.g.alchemy.com/v2/oVMc9JaRIDTvhbuLXtTFTgGEfU7hD4lq"
+process.env.MAINNET_RPC_URL || process.env.ALCHEMY_MAINNET_RPC_URL || ""
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const MUMBAI_RPC_URL =
     process.env.MUMBAI_RPC_URL ||
